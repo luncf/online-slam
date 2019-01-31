@@ -1,0 +1,14 @@
+bool pause
+bool start
+
+bool place_left
+bool place_center
+bool place_right
+
+bool obstacle
+bool turn_left
+bool turn_right
+
+---
+
+bool success

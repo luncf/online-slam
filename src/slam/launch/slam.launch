@@ -1,0 +1,6 @@
+<launch>
+    <!-- navigation -->
+    <include file="$(find navigation)/launch/navigation.launch"/>
+
+    <node name="slam_node" pkg="slam" type="slam_node.py" output="screen"/>
+</launch>

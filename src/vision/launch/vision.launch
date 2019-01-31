@@ -1,0 +1,6 @@
+<launch>
+    <!-- Camera Settings -->
+    <include file="$(find op3_camera_setting_tool)/launch/op3_camera_setting_tool.launch" />
+
+    <node name="vision_node" pkg="vision" type="vision_node.py" output="screen" />
+</launch>

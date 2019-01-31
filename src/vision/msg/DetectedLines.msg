@@ -1,0 +1,4 @@
+string center_line
+string goal_line
+string boundary_line
+string undefined_lines

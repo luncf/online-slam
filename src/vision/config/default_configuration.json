@@ -1,0 +1,72 @@
+{
+  "obstacle": {
+    "max_area": 5000,
+    "min_area": 1000,
+    "output_colour": [
+      0,
+      255,
+      0
+    ],
+    "threshold": [
+      0,
+      0,
+      0
+    ],
+    "value": [
+      0,
+      0,
+      0
+    ]
+  },
+  "camera_index": 0,
+  "field": {
+    "min_area": 1500,
+    "threshold": [
+      0,
+      0,
+      0
+    ],
+    "value": [
+      0,
+      0,
+      0
+    ]
+  },
+  "lines": {
+    "corner_max_distance_apart": 20,
+    "max_distance_apart": 20,
+    "max_width": 20,
+    "min_length": 20,
+    "output_boundary_line_colour": [
+      255,
+      0,
+      0
+    ],
+    "output_center_line_colour": [
+      255,
+      255,
+      0
+    ],
+    "output_goal_area_line_colour": [
+      255,
+      0,
+      255
+    ],
+    "output_undefined_line_colour": [
+      0,
+      0,
+      255
+    ],
+    "threshold": [
+      0,
+      0,
+      0
+    ],
+    "value": [
+      0,
+      0,
+      0
+    ]
+  },
+  "resized_frame_height": 320
+}

@@ -1,0 +1,9 @@
+<launch>
+    <!-- vision -->
+    <include file="$(find vision)/launch/vision.launch"/>
+
+    <!-- robotis op3 manager -->
+    <include file="$(find op3_manager)/launch/op3_manager.launch"/>
+
+    <node name="navigation_node" pkg="navigation" type="navigation_node.py" output="screen"/>
+</launch>

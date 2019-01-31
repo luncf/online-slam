@@ -1,0 +1,59 @@
+{
+    "init_x_offset": 0.005,
+    "init_y_offset": 0.020,
+    "init_z_offset": 0.025,
+    "init_roll_offset": 0.0,
+    "init_pitch_offset": 0.0,
+    "init_yaw_offset": 0.0,
+    "dsp_ratio": 0.20,
+    "step_fb_ratio": 0.25,
+    "move_aim_on": false,
+    "balance_enable": false,
+    "balance_hip_roll_gain": 0.35,
+    "balance_knee_gain": 0.30,
+    "balance_ankle_roll_gain": 0.70,
+    "balance_ankle_pitch_gain": 0.90,
+    "y_swap_amplitude": 0.010,
+    "z_swap_amplitude": 0.003,
+    "arm_swing_gain": 0.2,
+    "pelvis_offset": 0.0,
+    "hip_pitch_offset": 18.0,
+    "p_gain": 32,
+    "i_gain": 0,
+    "d_gain": 0,
+    "initial": {
+        "x_move_amplitude": 0.000,
+        "y_move_amplitude": 0.000,
+        "z_move_amplitude": 0.020,
+        "angle_move_amplitude": 0.0,
+        "period_time": 0.500
+    },
+    "marching": {
+        "x_move_amplitude": -0.001,
+        "y_move_amplitude": 0.001,
+        "z_move_amplitude": 0.030,
+        "angle_move_amplitude": 0.0,
+        "period_time": 0.580
+    },
+    "forward": {
+        "x_move_amplitude": 0.006,
+        "y_move_amplitude": 0.002,
+        "z_move_amplitude": 0.040,
+        "angle_move_amplitude": 0.0,
+        "period_time": 0.580
+    },
+    "turn_left": {
+        "x_move_amplitude": -0.001,
+        "y_move_amplitude": 0.000,
+        "z_move_amplitude": 0.040,
+        "angle_move_amplitude": 3.0,
+        "period_time": 0.580
+    },
+    "turn_right": {
+        "x_move_amplitude": -0.001,
+        "y_move_amplitude": 0.006,
+        "z_move_amplitude": 0.040,
+        "angle_move_amplitude": -3.0,
+        "period_time": 0.580
+    }
+}
